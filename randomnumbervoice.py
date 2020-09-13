@@ -1,9 +1,6 @@
 import sys
 import text_to_speech as speech
-# import pdb
 from random import randint
-# first=int(sys.argv[1])
-# last=int(sys.argv[2])
 answer=randint(1,10)
 speech.speak('Hi! this is candy. your game assistant. I will guess a number between 1 and 10 . if you guess the number correctly, you will win','en')
 
